@@ -1,0 +1,183 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body {
+
+margin: 0%;
+font-family: 'Tahoma';
+
+}
+
+div {
+padding-top: 30px;
+padding-bottom: 30px;
+text-align: center;
+}
+
+p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.primeira{
+    background-color: #afddfb;
+
+}
+
+.primeira img{
+    width: 150px;
+}
+
+.primeira a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #1d1d1d;
+    border-bottom: 2px solid #1d1d1d; 
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.segunda {
+    margin-top: 50px;
+    padding-top: 0;
+}
+
+span{
+    font-weight: bolder;
+}
+
+
+.terceira h1{
+    color: #1d1d1d;
+    margin-bottom: 5px;
+
+}
+
+.terceira h2{
+    color: #1c81c0;
+    margin-top: 0;
+    font-weight: normal;
+
+}
+
+.terceira img{
+    width: 450px;
+}
+
+.terceira span{
+    color: #1d80c1;
+}
+
+
+.quarta {
+    background-color: #1d80c1;
+
+
+}
+
+
+.quarta h2{
+    color: white;
+    font-size: 28px;
+    line-height: 42px;
+
+}
+
+.quarta p{
+    color: white;
+    line-height: 42px;
+    font-size: 22px;
+    text-align: center;
+    }
+    .quarta span {
+
+        color: yellow;
+    }
+
+    .quarta ul{
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .quarta li{
+        color: white;
+        line-height: 42px;
+        font-size: 22px;
+    }
+
+
+    .quinta h2{
+        color: #1c81c0;
+    }
+
+    .quinta span{
+        color: #1c81c0;
+    }
+
+    .quinta img  {
+    width: 450px;
+    }
+
+    .sexta {
+        background-color: #1c81c0;
+    }
+
+    .sexta h2{
+        color: white;
+    }
+    .sexta p{
+        color: white;
+        background-color: black;
+        padding: 15px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .sexta span{
+        color: yellow;
+    }
+
+
+    .sexta ul{
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .sexta a{
+        text-decoration: none;
+        background-color: white;
+        color: #1c81c0;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-left: 5px;
+        padding-right: 5px;
+        border-radius: 5px;
+    }
+
+    .sexta li{
+        font-size: 18px;
+        margin-top: 15px;
+    }
+
+    @media screen and (min-width: 530px) and (max-width: 700px){
+        .segunda img{
+            width: 100%;
+            height: auto;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        
+    }
